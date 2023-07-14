@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --first-color: #f8b400;
+    --second-color: #faf5e4;
+    --third-color: #2c786c;
+    --fourth-color: #004445;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif, 'Roboto', sans-serif;
+    text-align: center;
+    background-color: var(--fourth-color);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--second-color);
+    text-shadow: 3px 0 var(--first-color);
+}
+
+.w {
+    background-image: url(/images/tom1.png);
+}
+
+.a {
+    background-image: url(/images/tom2.png);
+}
+
+.s {
+    background-image: url(/images/tom3.png);
+}
+
+.d {
+    background-image: url(/images/tom4.png);
+}
+
+.j {
+    background-image: url(/images/snare.png);
+}
+
+.k {
+    background-image: url(/images/crash.png);
+}
+
+.l {
+    background-image: url(/images/kick.png);
+}
+
+.set {
+    margin: 8% auto;
+}
+
+.pressed {
+    box-shadow: 0 5px 5px 0 #faf5e4;
+    opacity: 0.5;
+}
+
+.drum {
+    background-color: var(--second-color);
+    border: 10px solid var(--third-color);
+    text-shadow: 2px 0 var(--fourth-color);
+    color: var(--first-color);
+    outline: none;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    border-radius: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    padding: 2rem 0;
+    color: var(--second-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--first-color);
+}
